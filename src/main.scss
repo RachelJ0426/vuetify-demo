@@ -1,0 +1,5 @@
+@use "./settings" as settings;
+@use "vuetify/styles" as vuetify with (
+  $border-radius-root: settings.$border-radius-root,
+  $button-background: settings.$button-background
+);
